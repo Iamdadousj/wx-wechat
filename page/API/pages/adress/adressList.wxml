@@ -1,0 +1,6 @@
+<!--page/API/pages/adress/adressList.wxml-->
+<view>
+<!--此接口开发工具显示虚拟信息，具体根据用户信息为准  -->
+<button type="primary" bindtap='address'>点击调用微信地址接口</button>
+<text>此接口开发工具显示虚拟信息，具体根据用户信息为准</text>
+</view>

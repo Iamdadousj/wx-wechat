@@ -1,0 +1,17 @@
+.recommend_scroll_x_box {
+  height: 245rpx;
+  white-space: nowrap;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.recommend_hot_box {
+  text-align: center;
+  margin-right: 24rpx;
+  display: inline-block;
+}

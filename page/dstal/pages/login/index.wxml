@@ -1,0 +1,11 @@
+<!--page/dstal/pages/login/login.wxml-->
+<dialog id='dialog' 
+      title='登录提示' 
+      content='小程序需要您的授权才能提供更好的服务哦！（点击获取用户信息包括用户昵称，账号，联系方式）' 
+      confirmText='确定授权'
+      bind:confirmEvent='confirmEvent'
+      bind:bindGetUserInfo='bindGetUserInfo'>
+</dialog>
+
+<button  type="default" lang="zh_CN" open-type="getUserInfo" bindgetuserinfo='bindGetUserInfo' catchtap='confirmEvent'>授权调用</button>
+
